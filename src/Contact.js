@@ -4,6 +4,7 @@ class Contact extends Component {
   componentDidMount() {
     document.querySelector('.landing').style.display = 'none';
   }
+  
   render() {
     return (
       <div id="forContact">
