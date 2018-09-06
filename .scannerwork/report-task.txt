@@ -1,0 +1,7 @@
+organization=scrpatlolla-github
+projectKey=scrpatlolla_SaiCharanPatlolla-Portfolio
+serverUrl=https://sonarcloud.io
+serverVersion=7.4.0.16482
+dashboardUrl=https://sonarcloud.io/dashboard?id=scrpatlolla_SaiCharanPatlolla-Portfolio
+ceTaskId=AWWvRcfAOkVm7ml0BBOR
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWWvRcfAOkVm7ml0BBOR
