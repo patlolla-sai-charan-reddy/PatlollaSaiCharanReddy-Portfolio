@@ -33,7 +33,7 @@ class App extends Component {
               </li>
               <li>
                 <Link to="/work-details-of-sai-charan-r-patlolla" title="Work">
-                  <img src="https://www.jexan.com/wp-content/themes/jexan/images/icon_rws.png" alt="code sample" data-toggle="modal" data-target="#exampleModal" /></Link>
+                  <img src="https://icon-library.net/images/projects-icon/projects-icon-29.jpg" alt="code sample" data-toggle="modal" data-target="#exampleModal" /></Link>
               </li>
               <li>
                 <Link to="/resume-of-sai-charan-r-patlolla" title="Resume"><img src="https://cdn2.iconfinder.com/data/icons/seo-web-optomization-ultimate-set/512/cv_cover_letter-512.png" alt="resume of sai charan" />
