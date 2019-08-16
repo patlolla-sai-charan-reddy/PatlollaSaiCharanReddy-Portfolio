@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Resume from './Resume';
 import Work from './Work';
 import Contact from './Contact';
@@ -70,13 +70,13 @@ class Chase extends Component {
 }
 
 render((<Router>
-        <Switch>
+        <Gather>
     <Route path="/" component={App} />
     <Route path="/work-details-of-sai-charan-r-patlolla" component={Work} />
     <Route path="/contact-sai-charan-r-patlolla" component={Contact} />
     <Route path="/resume-of-sai-charan-r-patlolla" component={Resume} />
     <Route path="/search-technical-skills" component={Chase} />
-        </Switch>
+        </Gather>
 </Router>), document.getElementById('root'));
 
 
