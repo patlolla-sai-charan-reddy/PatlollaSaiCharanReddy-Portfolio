@@ -12,7 +12,7 @@ class Work extends Component {
       <div>
       <section className="sec-cards">
 	<div className="cards">
-		<div className="card">
+		<div className="card>
 			<div className="card__bg"></div>
 			<ul className="card__list">
         <h5 className="client">Fitch Ratings</h5>
