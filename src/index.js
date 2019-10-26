@@ -70,13 +70,13 @@ class Chase extends Component {
 }
 
 render((<Router>
-        <Switch>
+
     <Route path="/" component={App} />
     <Route path="/work-details-of-sai-charan-r-patlolla" component={Work} />
     <Route path="/contact-sai-charan-r-patlolla" component={Contact} />
     <Route path="/resume-of-sai-charan-r-patlolla" component={Resume} />
     <Route path="/search-technical-skills" component={Chase} />
-        </Switch>
+
 </Router>), document.getElementById('root'));
 
 
