@@ -45,22 +45,11 @@ class App extends Component {
                   <img src="https://davidsilversteinblog.files.wordpress.com/2016/10/chinedu-ikedieze-contact-me.png" alt="Contact icon" /></Link>
               </li>
             </ul>
-            <RouteSetUp />
           </div>
+          <RouteSetUp />
         </div>
       </div>
     );
-  }
-}
-
-class Gather extends Component {
-  render() {
-    return (
-      <div>
-        {this.props.children}
-
-      </div>
-    )
   }
 }
 
@@ -73,7 +62,7 @@ class SearchSkills extends Component {
 function RouteSetUp() {
  return (
    <Router>
-      <Switch>
+        <Switch>
           <Route path="/">
             <App />
           </Route>
@@ -94,8 +83,6 @@ function RouteSetUp() {
   )
 }
 
-render(<App />, document.getElementById('root'));
-
 
 $(document).ready(function () {
   $("ul.osx-dock li").each(function (type) {
@@ -110,3 +97,7 @@ $(document).ready(function () {
   });
 
 });
+
+
+
+render(<App /> , document.getElementById('root'));
