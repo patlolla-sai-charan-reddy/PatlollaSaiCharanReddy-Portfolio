@@ -46,7 +46,6 @@ class App extends Component {
               </li>
             </ul>
           </div>
-          <RouteSetUp />
         </div>
       </div>
     );
@@ -61,6 +60,7 @@ class SearchSkills extends Component {
   
 function RouteSetUp() {
  return (
+   <div>
    <Router>
         <Switch>
           <Route path="/">
@@ -80,6 +80,7 @@ function RouteSetUp() {
           </Route>
       </Switch>
     </Router>
+   </div>
   )
 }
 
@@ -100,4 +101,4 @@ $(document).ready(function () {
 
 
 
-render(<App /> , document.getElementById('root'));
+render(<RouteSetUp /> , document.getElementById('root'));
