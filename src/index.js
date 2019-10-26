@@ -63,21 +63,37 @@ class Gather extends Component {
   }
 }
 
-class Chase extends Component {
+class SearchSkills extends Component {
   render() {
     return <SearchExample />
   }
 }
+  
+function RouteSetUp() {
+ return (
+   <Router>
+      <Switch>
+          <Route path="/">
+            <App />
+          </Route>
+           <Route path="/work-details-of-sai-charan-r-patlolla">
+            <Work />
+          </Route>
+          <Route path="/contact-sai-charan-r-patlolla">
+            <Contact />
+          </Route>
+           <Route path="/resume-of-sai-charan-r-patlolla">
+            <Resume />
+          </Route>
+           <Route path="/search-technical-skills">
+            <SearchSkills />
+          </Route>
+      </Switch>
+    </Router>
+  )
+}
 
-render((<Router>
-
-    <Route path="/" component={App} />
-    <Route path="/work-details-of-sai-charan-r-patlolla" component={Work} />
-    <Route path="/contact-sai-charan-r-patlolla" component={Contact} />
-    <Route path="/resume-of-sai-charan-r-patlolla" component={Resume} />
-    <Route path="/search-technical-skills" component={Chase} />
-
-</Router>), document.getElementById('root'));
+render(<RouteSetUp />, document.getElementById('root'));
 
 
 $(document).ready(function () {
