@@ -45,6 +45,7 @@ class App extends Component {
                   <img src="https://davidsilversteinblog.files.wordpress.com/2016/10/chinedu-ikedieze-contact-me.png" alt="Contact icon" /></Link>
               </li>
             </ul>
+            <RouteSetUp />
           </div>
         </div>
       </div>
@@ -93,7 +94,7 @@ function RouteSetUp() {
   )
 }
 
-render(<RouteSetUp />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
 
 
 $(document).ready(function () {
