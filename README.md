@@ -7,3 +7,5 @@ A talented IT professional with passion for tailored solutions seeks the positio
 
 
 ![alt text](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg) 
+
+# In Progress
