@@ -4,7 +4,7 @@
   "homepage": "https://saicharanpatlolla.netlify.com",
   "dependencies": {
     "font-awesome": "4.7.0",
-    "jquery": "3.3.1",
+    "jquery": "3.5.0",
     "popper.js": "1.14.3",
     "react": "16.4.1",
     "react-dom": "16.4.1",
