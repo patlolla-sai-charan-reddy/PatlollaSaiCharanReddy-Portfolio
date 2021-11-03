@@ -29,7 +29,7 @@ class App extends Component {
               </li>
               <li>
                 <Link to="patlolla-sai-charan-reddy/4" title="Search Technical Skills">
-                  <img src="https://png.icons8.com/metro/1600/search.png" alt="Search Technical Skills" /></Link>
+                  <img src="https://image.shutterstock.com/image-vector/magnifying-glass-search-icon-flat-260nw-738763579.jpg alt="Search Technical Skills" /></Link>
               </li>
               <li>
                 <Link to="patlolla-sai-charan-reddy/3" title="Work">
@@ -66,16 +66,16 @@ function RouteSetUp() {
           <Route path="/">
             <App />
           </Route>
-           <Route path="/work-details-of-sai-charan-r-patlolla">
+           <Route path="patlolla-sai-charan-reddy/3">
             <Work />
           </Route>
-          <Route path="/contact-sai-charan-r-patlolla">
+          <Route path="patlolla-sai-charan-reddy/5">
             <Contact />
           </Route>
-           <Route path="/resume-of-sai-charan-r-patlolla">
+           <Route path="/patlolla-sai-charan-reddy/2">
             <Resume />
           </Route>
-           <Route path="/search-technical-skills">
+           <Route path="patlolla-sai-charan-reddy/4">
             <SearchSkills />
           </Route>
       </Switch>
