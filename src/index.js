@@ -24,24 +24,24 @@ class App extends Component {
           <div id="dockWrapper">
             <ul className="osx-dock">
               <li>
-                <Link to="/home" title="Home">
+                <Link to="patlolla-sai-charan-reddy/home" title="Home">
                   <img src="https://images.vexels.com/media/users/3/135263/isolated/preview/b26ee4099ae2550f79e65e41843a9198-web-home-flat-sign-by-vexels.png" alt="Home icon" onClick={() => this.homeCalled()} /></Link>
               </li>
               <li>
-                <Link to="/search-technical-skills" title="Search Technical Skills">
+                <Link to="patlolla-sai-charan-reddy/4" title="Search Technical Skills">
                   <img src="https://png.icons8.com/metro/1600/search.png" alt="Search Technical Skills" /></Link>
               </li>
               <li>
-                <Link to="/work-details-of-sai-charan-r-patlolla" title="Work">
-                  <img src="https://icon-library.net/images/projects-icon/projects-icon-29.jpg" alt="code sample" data-toggle="modal" data-target="#exampleModal" /></Link>
+                <Link to="patlolla-sai-charan-reddy/3" title="Work">
+                  <img src="https://cdn-icons-png.flaticon.com/512/1087/1087927.png" alt="code sample" data-toggle="modal" data-target="#exampleModal" /></Link>
               </li>
               <li>
-                <Link to="/resume-of-sai-charan-r-patlolla" title="Resume"><img src="https://cdn2.iconfinder.com/data/icons/seo-web-optomization-ultimate-set/512/cv_cover_letter-512.png" alt="resume of sai charan" />
+                <Link to="/patlolla-sai-charan-reddy/2" title="Resume"><img src="https://cdn2.iconfinder.com/data/icons/seo-web-optomization-ultimate-set/512/cv_cover_letter-512.png" alt="resume of sai charan" />
                 </Link>
               </li>
 
               <li>
-                <Link to="/contact-sai-charan-r-patlolla" title="Contact Me">
+                <Link to="patlolla-sai-charan-reddy/5" title="Contact Me">
                   <img src="https://davidsilversteinblog.files.wordpress.com/2016/10/chinedu-ikedieze-contact-me.png" alt="Contact icon" /></Link>
               </li>
             </ul>
